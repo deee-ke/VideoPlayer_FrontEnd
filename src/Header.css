@@ -1,0 +1,16 @@
+.neo-link:hover i{
+    animation : flip 0.65s infinite;
+}
+
+@keyframes flip{
+    10% {
+        transform: rotateY(30deg);
+    }
+    20%{
+        transform: rotateY(60deg);
+    }
+    30%{
+        transform: rotateY(90deg);
+    }
+    
+}
